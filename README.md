@@ -1,6 +1,6 @@
 ## Overview
 
-A collection of reusable Flex Message JSON templates for LINE Official Accounts, organized by use case.
+A collection of 11 reusable Flex Message JSON templates for LINE Official Accounts, organized by use case.
 
 ## Message Templates
 
