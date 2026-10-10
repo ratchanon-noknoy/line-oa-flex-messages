@@ -11,10 +11,11 @@ A collection of 11 Flex Message JSON templates for LINE Official Accounts.
 
 ## Tech Stack
 
-* **Messaging Platform:** LINE Official Account
-* **Message Format:** Flex Message (JSON)
+- JSON
+- LINE Messaging API (Loading, Reply, and Rich Menu)
 
 ## Tools
 
-* **Flex Message Simulator:** [Flex Message Simulator](https://developers.line.biz/flex-simulator/)
+- [Flex Message Simulator](https://developers.line.biz/flex-simulator/)
+- [LINE Bot Designer](https://developers.line.biz/en/docs/messaging-api/using-bot-designer/)
 
