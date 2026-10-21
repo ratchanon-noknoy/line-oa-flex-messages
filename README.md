@@ -11,4 +11,4 @@
 
 - JSON
 - LINE Messaging API
-- Flex Message Simulator
+- [Flex Message Simulator](https://developers.line.biz/flex-simulator/)
