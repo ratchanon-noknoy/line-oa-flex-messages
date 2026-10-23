@@ -16,10 +16,10 @@
 
 ### เครื่องมือที่ใช้
 
-- LINE Messaging API
-- LINE Bot Designer
-- Flex Message Simulator
-- ngrok สำหรับทดสอบ Webhook ในระหว่างพัฒนา
+- [LINE Messaging API](https://developers.line.biz/en/services/messaging-api/)
+- [LINE Bot Designer](https://developers.line.biz/en/docs/messaging-api/download-bot-designer/#bot-designer-for-macos)
+- [Flex Message Simulator](https://developers.line.biz/flex-simulator/?status=success)
+- [ngrok](https://ngrok.com/) สำหรับทดสอบ Webhook ในระหว่างพัฒนา
 
 ## Timeline การดำเนินงาน
 
@@ -37,14 +37,6 @@
 
 - นักพัฒนา 1 คน
 - พยาบาล 1 คน
-
-### ทรัพยากรและเครื่องมือ
-
-- [LINE Messaging API](https://developers.line.biz/en/services/messaging-api/)
-- [LINE Bot Designer](https://developers.line.biz/en/docs/messaging-api/using-bot-designer/)
-- [Flex Message Simulator](https://developers.line.biz/flex-simulator/?status=success)
-- [ngrok](https://ngrok.com/)
-- Webhook Endpoint ที่รองรับ HTTPS
 
 ## ความปลอดภัย
 
@@ -65,4 +57,4 @@
 
 ---
 
-*หมายเหตุ: ควรตรวจสอบการตั้งค่า Webhook, Token และการตอบกลับข้อความให้ครบถ้วนก่อนเปิดใช้งานจริง*
+> หมายเหตุ: ควรตรวจสอบการตั้งค่า Webhook, Token และการตอบกลับข้อความให้ครบถ้วนก่อนเปิดใช้งานจริง
