@@ -2,16 +2,16 @@
 import { Client, validateSignature } from "@line/bot-sdk";
 import { NextResponse } from "next/server";
 
-import telemedStart from "./flex_messages/TelemedicineStartFlexmessage.json" with { type: "json" };
-import news from "./flex_messages/PublicRelationsFlexmessage.json" with { type: "json" };
-import telemedMore from "./flex_messages/TelemedicineMoreInfoFlexmessage.json" with { type: "json" };
-import contact from "./flex_messages/ContactUsFlexmessage.json" with { type: "json" };
-import about from "./flex_messages/AboutUsFlexmessage.json" with { type: "json" };
-import general from "./flex_messages/GeneralService.json" with { type: "json" };
-import thaiChinese from "./flex_messages/ThaiChineseService.json" with { type: "json" };
-import thai from "./flex_messages/ThaiService.json" with { type: "json" };
-import faq from "./flex_messages/FaqFlexmessage.json" with { type: "json" };
-import healthTips from "./flex_messages/HealthTipsFlexmessage.json" with { type: "json" };
+import telemedStart from "./flex_messages/telemedicine-start.json" with { type: "json" };
+import news from "./flex_messages/news.json" with { type: "json" };
+import telemedMore from "./flex_messages/telemedicine-info.json" with { type: "json" };
+import contact from "./flex_messages/contact.json" with { type: "json" };
+import about from "./flex_messages/about.json" with { type: "json" };
+import general from "./flex_messages/general-schedule.json" with { type: "json" };
+import thaiChinese from "./flex_messages/thai-chinese-schedule.json" with { type: "json" };
+import thai from "./flex_messages/thai-schedule.json" with { type: "json" };
+import faq from "./flex_messages/faq.json" with { type: "json" };
+import healthTips from "./flex_messages/health-tips.json" with { type: "json" };
 
 // keyword -> ข้อความตอบกลับ
 const keywordMap = {};
